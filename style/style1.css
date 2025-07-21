@@ -122,6 +122,9 @@
     /* background-color: orange; */
     color: rgb(250, 247, 243);
      flex: 1;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
 }
 .upcoming-matches-right .card{
     color: black;
