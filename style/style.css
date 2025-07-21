@@ -1,0 +1,109 @@
+
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+.box-sizing{
+    background-color: rgb(154, 74, 230);
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    /* grid */
+    /* display: grid;
+    place-content: center; */
+    /* flex */
+      display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.content-box{
+    background-color: rgb(50, 101, 135);
+    height: 200px;
+    width: 200px;
+    /* position */
+    /* position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%); 
+    */
+    box-sizing: content-box;
+    padding: 40px;
+    
+}
+.border-box{
+    background-color: rgb(113, 153, 38);
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 40px;
+    
+    
+    
+}
+.flag-green{
+    background-color: green;
+    height: 300px;
+    width: 500px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+     position: relative;
+    
+    
+
+
+    
+}
+.flag-rounded-red{
+    background-color: rgb(192, 4, 4);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 50;
+}
+.flag-rounded-White{
+     background-color: rgb(244, 237, 237);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 55;
+}
+.flag-rounded-pink{
+    background-color: rgb(230, 80, 225);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    z-index:50;
+}
+.flag-rounded-black{
+    background-color: rgb(95, 92, 95);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:51;
+}

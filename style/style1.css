@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Raf */
+/* .banner{
+    
+}
+.content-box{
+    height: 70vh;
+    width: 80vw;
+    background-color: black;
+    margin: 4rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.content{
+    height: 70vh;
+    width: 50vw;
+    
+    color: aliceblue;
+     padding-left: 3rem;
+   
+     
+    
+}
+.img{
+    height: 70vh;
+    width: 50vw;
+    background-color: rgb(193, 223, 43);
+}
+.img img{
+    height: 70vh;
+    width: 50vw;
+}
+.content h2{
+    font-size: 50px;
+    margin: 2rem;
+}
+.content p{
+    font-size: 18px;
+    margin: 2rem;
+
+}
+.content button{
+    background-color: brown;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 2rem;
+} */
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+}
+ .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+    background-color:black;
+    color: aliceblue;
+    margin: 50px auto;
+    
+ }
+ .banner h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 15px 0;
+ }
+ .banner p{
+    color: #ffffff;
+    margin: 15px 0;
+    max-width: 65%;
+ }
+ .btn{
+    background-color: #dd0000;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin: 9px 0;
+ }
+.banner-left{
+    padding-left: 45px;
+}
+.img img{
+    border-radius: 35px;
+    display: block;
+}
+/* heading end */
+/* main start */
+.upcoming-matches{
+    max-width: 1200px;
+    margin: auto;
+     display: flex;
+    /* background-color: rgb(206, 218, 40);  */
+    padding: 50px 0;
+    gap: 20px;
+}
+.upcoming-matches-left{
+        background-color: rgb(5, 5, 6);
+       width: 25%;
+       height: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        
+      border-radius: 15px;
+}
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2){
+        background-color: white;
+        color: black;
+}
+.upcoming-matches-right{
+    /* background-color: orange; */
+    color: rgb(250, 247, 243);
+     flex: 1;
+}
+.upcoming-matches-right .card{
+    color: black;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+}
+.upcoming-matches-right .card img{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.upcoming-matches-right .card .btn{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 17px;
+    margin-top: 15px;
+}
+.upcoming-matches-right .card h2{
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.card-bottom{
+    display: flex;
+    gap :20px;
+    margin: 15px 0;
+    color: #161616cc;
+}
+.upcoming-matches-right .card .card-body{
+    padding: 20px;
+}
